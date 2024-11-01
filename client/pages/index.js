@@ -43,6 +43,7 @@ export default function Home() {
         onChange={(e) => setName(e.target.value)}
       />
       <button onClick={createUser}>Add User</button>
+      <p>테스트 글씨입니다.</p>
     </div>
   );
 }
