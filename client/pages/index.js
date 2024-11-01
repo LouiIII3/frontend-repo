@@ -30,7 +30,7 @@ export default function Home() {
 
   return (
     <div>
-      <h1>Users</h1>
+      <h1>Usersjeongseokjin</h1>
       <ul>
         {users.map((user) => (
           <li key={user.id}>{user.name}</li>
